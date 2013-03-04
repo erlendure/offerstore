@@ -43,6 +43,8 @@ gem 'spree', '1.3.2'
 gem 'spree_gateway', :github => 'spree/spree_gateway', :branch => '1-3-stable'
 gem 'spree_auth_devise', :github => 'spree/spree_auth_devise', :branch => '1-3-stable'
 
+gem 'spree_blue_theme', :git => 'git://github.com/spree/spree_blue_sass_theme.git'
+
 group :production do
   gem 'pg', '0.12.2'
 end
